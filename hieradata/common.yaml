@@ -6,4 +6,13 @@ profile::base::ntp_servers:
  - 3.ubuntu.pool.ntp.org
 
 profile::apache::default_vhost: false
-
+profile::apache::apache_vhost_servers: {
+  'jtlee1191.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/jtlee1191'
+  },
+  'jtlee1191b.mylabserver.com': {
+    port: 80,
+    docroot: '/var/www/jtlee1191b'
+  }
+}
