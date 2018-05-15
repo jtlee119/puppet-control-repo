@@ -1,0 +1,8 @@
+---
+profile::nginx::vhosts:
+ - 'fqdn': 'jtlee1192.mylabserver.com'
+   'port': 80
+   'server_aliases': ''
+ - 'fqdn': 'jtlee1192b.mylabserver.com'
+   'port': 80
+   'server_aliases': 'jtlee1192b1.mylabserver.com'  
