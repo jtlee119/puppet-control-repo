@@ -32,11 +32,11 @@ mod 'ntp',
 
 mod 'role',
   :git  => 'https://github.com/jtlee119/puppet-role.git',
-  :ref  => 'development'
+  :ref  => 'master'
 
 mod 'profile',
   :git  => 'https://github.com/jtlee119/puppet-profile.git',
-  :ref  => 'development'
+  :ref  => 'master'
 
 mod 'nginx',
   :git  => 'git@github.com:jtlee119/puppet-nginx.git',
