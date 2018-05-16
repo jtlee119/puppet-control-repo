@@ -25,8 +25,9 @@ File { backup => false }
 # specified in the console for that node.
 
 node 'jtlee1192.mylabserver.com' {
-  notify { 'test_msg_for_jtlee1192': }
+  notify { 'test_msg_for_jtlee1192': 
     message => 'this is jtlee1192 message using a node def!  i will pass my Puppet cert exam!!',
+  }
 }
 
 node 'jtlee1193' {
