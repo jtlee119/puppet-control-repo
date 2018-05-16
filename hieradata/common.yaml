@@ -16,3 +16,5 @@ profile::apache::apache_vhost_servers: {
     docroot: '/var/www/jtlee1191b'
   }
 }
+classes:
+ - profile::base

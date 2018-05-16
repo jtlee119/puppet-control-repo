@@ -6,3 +6,5 @@ profile::nginx::vhosts:
  - 'fqdn': 'jtlee1192b.mylabserver.com'
    'port': 80
    'server_aliases': 'jtlee1192b1.mylabserver.com'  
+classes:
+ - profile::nginx

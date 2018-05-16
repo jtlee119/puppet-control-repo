@@ -40,6 +40,7 @@ node 'jtlee1193' {
 #}
 
 node default {
+  hiera_include('classes')
 #  $test_top_scope = "this is node scope!!"
 #  notify { "test_top_scope":
 #    message => "this is a top scope variable: ${test_top_scope}"	
