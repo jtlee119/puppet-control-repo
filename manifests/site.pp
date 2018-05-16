@@ -28,10 +28,10 @@ node 'jtlee1193.mylabserver' {
   notify { "this matches the node name!!!": }
 }
 
-node /^jtlee1193/ {
-  notify { "I will pass my Puppet cert exam first time!!!!": }
-  notify { "This is a node definition using regex!!!": }
-}
+#node /^jtlee1193/ {
+#  notify { "I will pass my Puppet cert exam first time!!!!": }
+#  notify { "This is a node definition using regex!!!": }
+#}
 
 node default {
 #  $test_top_scope = "this is node scope!!"
