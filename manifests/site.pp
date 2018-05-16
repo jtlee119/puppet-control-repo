@@ -24,6 +24,11 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 
+node 'jtlee1192.mylabserver.com' {
+  notify { 'test_msg_for_jtlee1192': }
+    message => 'this is jtlee1192 message using a node def!  i will pass my Puppet cert exam!!',
+}
+
 node 'jtlee1193' {
   notify { "this matches jtlee1193!!!": }
 }
